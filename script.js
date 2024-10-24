@@ -28,7 +28,7 @@ const showCoffees = (coffees) => {
       const coffeeCard = `
         <div class="col-md-4 p-3">
           <div class="card">
-            <img src="${image_url}" class="card-img-top" alt="${name}">
+            <img src="${image_url}" class="card-img-top" alt="${name}" loading="lazy">
             <div class="card-body">
               <h3 class="card-title text-center mx-3">${name}</h5>
               <p class="card-text mx-3 description">${description}</p>
